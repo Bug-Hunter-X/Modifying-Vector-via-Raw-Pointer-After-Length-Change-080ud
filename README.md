@@ -1,0 +1,1 @@
+This repository demonstrates a common error in Rust: modifying a vector through a raw pointer after the vector's length has changed. This can lead to undefined behavior, crashes, or subtle data corruption.  The `bug.rs` file shows the problematic code, while `bugSolution.rs` presents a safe alternative.
